@@ -1,0 +1,52 @@
+/* hero-section styles */
+
+
+
+.hero-section img {
+  opacity: 0.2;
+
+}
+
+.Cardtitle {
+  color: #1E82EF;
+  padding-left: 30px;
+  padding-top: 85px;
+  font-weight: 600;
+
+}
+
+.link-text {
+  color: #214A6C;
+  font-weight: 500;
+}
+
+.bts {
+  padding-top: 8px;
+}
+
+.bt {
+  padding-top: 30px;
+}
+
+.form-style {
+  background-color: #818182;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.fontWeight {
+  width: 20%;
+  font-size: 8px;
+}
+
+
+/* signup page styles here */
+.containerBackground {
+  background-color: #EEEEEE;;
+}
+
+.containerWidth{
+  width: 33%;
+  margin-bottom: 30px;
+}
