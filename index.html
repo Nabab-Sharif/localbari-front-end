@@ -26,7 +26,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulStyle">
             <li class="nav-item">
               <a class="nav-link link-text" aria-current="page" href="login.html">Request for a space</a>
             </li>
@@ -48,97 +48,102 @@
       </div>
     </nav>
 
+
+ 
+
+
   </header>
   <!--Header Section End-->
+
+<!--hero-section-->
+<section class="hero-section">
+
+
+  <div class="card">
+    <img src="images/dhaka_city.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+
+      <div class="d-flex justify-content-between">
+
+        <span class="col-lg-6  cardleftpart">
+          <h5 class="display-6 Cardtitle">Find your space...</h5>
+        </span>
+
+        <span class="col-lg-6  cardrightpart">
+          <form class="row g-2 w-75 form-style needs-validation" novalidate>
+
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label">I'am looking for</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">District</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+
+            <div class="col-md-6 bts">
+              <label for="validationCustom04" class="form-label"></label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Thana</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+
+
+            <div class="col-md-12">
+              <label for="validationCustom04" class="form-label">Must have</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Select required facilities</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom04" class="form-label">I am</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Who are you?</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+
+            <div class="col-6 bt">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </form>
+
+
+        </span>
+      </div>
+
+
+    </div>
+  </div>
+
+</section>
 
 
 
   <!--Main Section Start-->
-
-  <!--hero-section-->
-  <section class="hero-section">
-
-
-    <div class="card">
-      <img src="images/dhaka_city.jpg" class="card-img" alt="...">
-      <div class="card-img-overlay">
-
-        <div class="d-flex justify-content-between">
-          <span class="col-lg-6">
-            <h5 class="display-6 Cardtitle">Find your space...</h5>
-          </span>
-
-          <span class="col-lg-6">
-            <form class="row g-2 w-75 form-style needs-validation" novalidate>
-
-              <div class="col-md-6">
-                <label for="validationCustom04" class="form-label">I'am looking for</label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">District</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-              </div>
-
-
-              <div class="col-md-6 bts">
-                <label for="validationCustom04" class="form-label"></label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Thana</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-              </div>
-
-
-
-              <div class="col-md-12">
-                <label for="validationCustom04" class="form-label">Must have</label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Select required facilities</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <label for="validationCustom04" class="form-label">I am</label>
-                <select class="form-select" id="validationCustom04" required>
-                  <option selected disabled value="">Who are you?</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-              </div>
-
-              <div class="col-6 bt">
-                <button class="btn btn-primary" type="submit">Search</button>
-              </div>
-            </form>
-
-
-          </span>
-        </div>
-
-
-      </div>
-    </div>
-
-  </section>
 
 
   <!--Nearby spaces section -->
   <section>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid nearbySpace">
       <div class="row">
 
         <h2 class="text-center">Nearby spaces</h2>

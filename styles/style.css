@@ -1,5 +1,10 @@
 /* hero-section styles */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
 .hero-section img {
@@ -32,6 +37,7 @@
   background-color: #818182;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 5px;
 
 }
 
@@ -43,10 +49,72 @@
 
 /* signup page styles here */
 .containerBackground {
-  background-color: #EEEEEE;;
+  background-color: #EEEEEE;
+  ;
 }
 
-.containerWidth{
+.containerWidth {
   width: 33%;
   margin-bottom: 30px;
+}
+
+
+
+/* Responsive Styles */
+
+@media screen and (max-width:576px) {
+
+  .cardrightpart {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .form-style {
+    margin-left: 30px;
+
+  }
+
+  .nearbySpace {
+
+    margin-top: 50px;
+  }
+
+
+  .hero-section img {
+    height: 65vh;
+  }
+
+  .ulStyle {
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+  .cardrightpart {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  .nearbySpace {
+
+    margin-top: 50px;
+  }
+
+
+  .hero-section img {
+    height: 65vh;
+  }
+
+  .ulStyle {
+    text-align: center;
+  }
+
+
+
 }
